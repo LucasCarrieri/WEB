@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background:linear-gradient(to left, #371B58, #4C3575, #5B4B8A, #7858A6);
+    color: beige;
+}
+.cabecalho{
+    padding: 2% 0% 0% 10%;
+}
+.cabecalho_menu{
+    display: flex;
+    gap: 80px;
+}
+.cabecalho_menu_link{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2,25rem;
+    text-decoration: none;
+    color: #ffffff;
+
+}
+.conteudo{ 
+    padding: 8% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+.conteudo_projeto{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.conteudo_projeto{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+strong{
+    color: #b891cb;
+}
+.conteudo_titulo{
+    text-align: center;
+}
+.conteudo_texto{
+    text-align: center;
+    font-size: 2,25rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.conteudo_link{
+    flex-direction: column;
+    justify-content: center;
+}
+.conteudo_links_link{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #371B58;
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #f6f6f6;
+    font-family: 'Montserrat', sans-serif
+    
+    /* border: 2px solid #371B58;
+    width: 280px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: rem;
+    font-weight: 600;
+    padding: 21.5px 0;  
+    text-decoration: none;
+    color: #f6f6f6;
+    font-family: 'Montserrat', sans-serif; */
+}
+.apresentacao_links_subtitulo{
+    gap: 70px;
+    text-align: center;
+    font-family: 'Krona One', 'sans- serif';
+    font-weight: 400;
+    font-size: 2,25rem;
+}
+
+.conteudo_links_link:hover{
+    justify-content: center;
+    background-color: #4C3575;
+}
+
+.Conteudo_imagem{
+    width: 50%;
+    border-radius: 10%;
+}
+
+.rodape {
+    padding: 45px;
+    color: #ffffff;
+    background-color: #000000;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2,25rem;
+    font-weight: 400;
+}
+
+@media(max-width: 1200px){
+    .cabecalho{
+        padding: 10%;
+    }
+    .cabecalho_menu{
+        justify-content: center;
+    }
+    .conteudo{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .conteudo_projeto{
+        width: auto;
+    }
+}
